@@ -65,6 +65,14 @@ void display(struct calElement *calendar)
 /* Main function */
 int main()
 {
-   
+    struct calElement *calendar;
+
+    calendar = create();
+    read(calendar);
+    display(calendar);
+
+    free(calendar);
+    return 0;
 }
+
 
