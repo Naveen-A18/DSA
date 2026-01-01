@@ -16,5 +16,6 @@ printf("\nEnter the number of discs: \n");
 scanf("%d", &n);
 tower(n, 'A', 'B', 'C');
 printf("\n\nTotal Number of moves are: %d", (int)pow(2,n)-1);
-getch();
+
 }
+
