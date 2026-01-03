@@ -50,4 +50,11 @@ else
     printf("\nThe RESULTANT string is:\n%s\n" ,ANS);
 }
 }
+void main()
+{
+read();
+replace();
+print();
+}
+
 
