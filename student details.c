@@ -137,5 +137,25 @@ int main()
         printf("\n5.Insert Front\n6.Delete Front\n7.Exit\n");
         printf("Enter choice: ");
         scanf("%d", &ch);
+        switch (ch)
+        {
+            case 1:
+                printf("Enter number of students: ");
+                scanf("%d", &n);
+                for (i = 0; i < n; i++)
+                    insert_front();
+                break;
+
+            case 2: display(); break;
+            case 3: insert_end(); break;
+            case 4: delete_end(); break;
+            case 5: insert_front(); break;
+            case 6: delete_front(); break;
+            case 7: exit(0);
+            default: printf("Wrong Choice\n");
+        }
+    }
+}
+
 
 
