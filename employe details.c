@@ -124,6 +124,11 @@ void display()
 int main()
 {
     int ch, n, i;
+    while (1)
+    {
+        printf("\n1.Create DLL\n2.Display\n3.Insert Front\n4.Delete Front");
+        printf("\n5.Insert Rear\n6.Delete Rear\n7.Exit\n");
+
 
 
         switch (ch)
@@ -145,4 +150,5 @@ int main()
         }
     }
 }
+
 
