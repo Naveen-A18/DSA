@@ -128,7 +128,8 @@ int main()
     {
         printf("\n1.Create DLL\n2.Display\n3.Insert Front\n4.Delete Front");
         printf("\n5.Insert Rear\n6.Delete Rear\n7.Exit\n");
-
+        printf("Enter choice: ");
+        scanf("%d", &ch);
 
 
         switch (ch)
@@ -150,5 +151,6 @@ int main()
         }
     }
 }
+
 
 
